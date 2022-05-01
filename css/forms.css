@@ -26,7 +26,7 @@ section {
 	flex-basis: 57%;
 	margin-right: 10%;
 }
-input:not([type="radio"]),textarea {
+input:not([type="radio"]):not([type="checkbox"]),textarea {
 	display:block;
 	margin-bottom:2rem;
 	width:20rem;
@@ -37,6 +37,7 @@ input:not([type="radio"]),textarea {
 legend {
 	font-weight:bold;
 	font-size: 1rem;
+	margin-top:1rem;
 }
 label {
 	display:block;
