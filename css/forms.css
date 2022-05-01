@@ -1,0 +1,77 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+	font-family: 'Xanh Mono', monospace;
+	margin: 0;
+	padding: 0;
+	background-image:url(../img/galaxy.jpg);
+}
+.wrapper {
+	width: 80%;
+	margin: 0 auto;
+	padding: 1em;
+	display: flex;
+	flex-flow: row nowrap;
+	background-color:goldenrod;
+}
+p {
+	margin-bottom: 0;
+	margin-top: 2rem;
+}
+section {
+	flex-basis: 57%;
+	margin-right: 10%;
+}
+input:not([type="radio"]),textarea {
+	display:block;
+	margin-bottom:2rem;
+	width:20rem;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:1rem;
+	padding:0 1rem;
+}
+legend {
+	font-weight:bold;
+	font-size: 1rem;
+}
+label {
+	display:block;
+}
+aside {
+	flex-basis: 33%;
+}
+h1 {
+	font-weight: bold;
+	text-decoration: underline;
+	text-align: center;
+}
+.aboutabduction {
+	margin-bottom:2rem;
+}
+.fieldset1 {
+	border: 4px groove black;
+
+}
+.fieldset2 {
+	margin-bottom:2rem;
+	border: 4px groove black;
+}
+.fieldset3 {
+	border: 4px groove black;
+}
+select {
+	font-size:1rem;
+}
+textarea {
+	height:10rem;
+	padding:1rem;
+}
+button {
+	font-size:1rem;
+	margin: 2rem 0;
+	padding:0.5rem 1rem;
+}
